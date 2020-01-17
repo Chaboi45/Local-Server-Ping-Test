@@ -69,7 +69,7 @@ function change() {
     var text1 = [">_ |",">_ M",">_ Ma",">_ Mad",">_ Made",">_ Made ",">_ Made b",">_ Made by",">_ Made by ",">_ Made by @",">_ Made by @C",">_ Made by @Ch",">_ Made by @Cha",">_ Made by @Chab",">_ Made by @Chabo",">_ Made by @Chaboi",">_ Made by @Chaboi4",">_ Made by @Chaboi45"];
   var counter1 = 0;
   var elem1 = document.getElementById("flicker2");
-  var inst1 = setInterval(change1, 75);
+  var inst1 = setInterval(change1, 120);
 
   function change1() {
     elem1.innerHTML = text1[counter1];

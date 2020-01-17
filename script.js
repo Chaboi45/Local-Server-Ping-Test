@@ -1,3 +1,8 @@
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 function ping(host, port, pong) {
 
   var started = new Date().getTime();
@@ -52,12 +57,8 @@ ping("localhost", "", function(m){ document.getElementById("localhost").innerHTM
 var text = [">_ |",">_ s",">_ su",">_ sud",">_ sudo",">_ sudo ",">_ sudo k",">_ sudo ki",">_ sudo kil",">_ sudo kill",">_ sudo kill ",">_ sudo kill ",">_ sudo kill a",">_ sudo kill al",">_ sudo kill all","","~guest$ sudo kill all"];
 var counter = 0;
 var elem = document.getElementById("flicker");
-var inst = setInterval(change, 150);
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+var inst = setInterval(change, getRandomInt(50,250));
+
 function change() {
   elem.innerHTML = text[counter];
   counter++;

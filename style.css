@@ -1,0 +1,17 @@
+.localhost{
+  font-family: monospace;
+  text-decoration: none;
+  font-size: 60px;
+  color:#00ff1e;
+  margin: auto;
+}
+
+.big{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  }
+body{
+  background-color: black;
+}

@@ -66,18 +66,31 @@ function change() {
     counter = 0;
     clearInterval(inst); 
     document.getElementById("abort").innerHTML="Successfully killed "+getRandomInt(5, 230)+" tasks"
-    var text1 = [">_",">_ |"];
+    var text1 = [">_ |",">_ M",">_ Ma",">_ Mad",">_ Made",">_ Made ",">_ Made b",">_ Made by",">_ Made by ",">_ Made by @",">_ Made by @C",">_ Made by @Ch",">_ Made by @Cha",">_ Made by @Chab",">_ Made by @Chabo",">_ Made by @Chaboi",">_ Made by @Chaboi4",">_ Made by @Chaboi45"];
   var counter1 = 0;
   var elem1 = document.getElementById("flicker2");
-  var inst1 = setInterval(change1, 500);
+  var inst1 = setInterval(change1, 75);
 
   function change1() {
     elem1.innerHTML = text1[counter1];
     counter1++;
     if (counter1 >= text1.length) {
       counter1 = 0;
+    clearInterval(inst1); 
+    var text2 = [">_ Made by @Chaboi45",">_ Made by @Chaboi45|"];
+  var counter2 = 0;
+  var elem2 = document.getElementById("flicker2");
+  var inst2 = setInterval(change2, 500);
+
+  function change2() {
+    elem2.innerHTML = text2[counter2];
+    counter2++;
+    if (counter2 >= text2.length) {
+      counter2 = 0;
     
     // uncomment this if you want to stop refreshing after one cycle
+    }
+  }
     }
   }
 

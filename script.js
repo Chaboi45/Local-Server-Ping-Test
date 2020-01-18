@@ -88,7 +88,7 @@ function change() {
     counter = 0;
     clearInterval(inst);
     document.getElementById("abort").innerHTML = "Successfully killed " + getRandomInt(5, 230) + " tasks"
-    var text1 = [">_ |", ">_ M", ">_ Ma", ">_ Mad", ">_ Made", ">_ Made ", ">_ Made b", ">_ Made by", ">_ Made by ", ">_ Made by @", ">_ Made by @C", ">_ Made by @Ch", ">_ Made by @Cha", ">_ Made by @Chab", ">_ Made by @Chabo", ">_ Made by @Chaboi", ">_ Made by @Chaboi4", ">_ Made by @Chaboi45"];
+    var text1 = [">_ |", ">_ M", ">_ Ma", ">_ Mad", ">_ Made", ">_ Made ", ">_ Made b", ">_ Made by", ">_ Made by ", ">_ Made by @", ">_ Made by @C", ">_ Made by @Ch", ">_ Made by @Cha", ">_ Made by @Chab", ">_ Made by @Chabo", ">_ Made by @Chaboi", ">_ Made by @Chaboi4", ">_ Made by @Chaboi45", ">_ Made by @Chaboi45 ", ">_ Made by @Chaboi45 P", ">_ Made by @Chaboi45 Pr", ">_ Made by @Chaboi45 Pre", ">_ Made by @Chaboi45 Pres", ">_ Made by @Chaboi45 Press", ">_ Made by @Chaboi45 Press ", ">_ Made by @Chaboi45 Press En", ">_ Made by @Chaboi45 Press Ent", ">_ Made by @Chaboi45 Press Ente", ">_ Made by @Chaboi45 Press Enter", ">_ Made by @Chaboi45 Press Enter ", ">_ Made by @Chaboi45 Press Enter to", ">_ Made by @Chaboi45 Press Enter to ", ">_ Made by @Chaboi45 Press Enter to t", ">_ Made by @Chaboi45 Press Enter to tr", ">_ Made by @Chaboi45 Press Enter to try", ">_ Made by @Chaboi45 Press Enter to try ", ">_ Made by @Chaboi45 Press Enter to try a", ">_ Made by @Chaboi45 Press Enter to try ag", ">_ Made by @Chaboi45 Press Enter to try aga", ">_ Made by @Chaboi45 Press Enter to try agai", ">_ Made by @Chaboi45 Press Enter to try again"];
     var counter1 = 0;
     var elem1 = document.getElementById("flicker2");
     var inst1 = setInterval(change1, 75);
@@ -99,7 +99,7 @@ function change() {
       if (counter1 >= text1.length) {
         counter1 = 0;
         clearInterval(inst1);
-        var text2 = [">_ Made by @Chaboi45", ">_ Made by @Chaboi45|"];
+        var text2 = [">_ Made by @Chaboi45 Press Enter to try again", ">_ Made by @Chaboi45 Press Enter to try again|"];
         var counter2 = 0;
         var elem2 = document.getElementById("flicker2");
         var inst2 = setInterval(change2, 500);
